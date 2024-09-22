@@ -7,7 +7,20 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form method="post">
+		<lable for="Name">Name: </lable><input type="text" required="required" id="name" placeholder="Name"></br>
+		<lable for="Email">Email: </lable><input type="text" required="required" id="email" placeholder="email"></br>
+		<lable for="Gender">Gender: </lable>
+		<input type="radio" required="required" id="gender_m">  <lable for="Gender">Male</lable>
+		<input type="radio" required="required" id="gender_f">  <lable for="Gender">Female</lable></br>
+		<lable for="CarBrand">Car Brands: </lable><input type="Select" required="required" id="car" placeholder="--Please choose an option--"></br>
+		<lable for="Age">Age: </lable><input type="number" required="required" id="age" placeholder="Age"></br>
+		<lable for="DOB">DOB: </lable><input type="date" required="required" id="dob" placeholder="-"></br>
+		<lable for="Phone">Phone Number: </lable><input type="tel" id="tel" placeholder="xxx-xxx-xxxx"></br>
+<lable for="Password">Password: </lable><input type="password" required="required" id="password" placeholder="Password"></br>
+		<lable for="Agree">I agree to the TOS: </lable><input type="checkbox" required="required" id="tos"></br>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
