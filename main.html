@@ -10,7 +10,45 @@
 	<form method="post">
 		
 		<lable for="name">Name</lable><br>
-		<input type="text" id="name" name="name" required>
+		<input type="text" id="name" name="name" required><br><br>
+
+		<lable for="email">Email</lable><br>
+		<input type="text" id="email" name="email" required><br><br>
+
+		
+			<lable for="gender">Gender</legend><br>
+			<lable for="gender_m">Male</lable>
+			<input type="radio" id="gender_m" name="gender" value="gender_m" checked><br>
+			<lable for="gender_f">Female</lable>
+			<input type="radio" id="gender_f" name="gender" value="gender_f" checked><br><br>
+		
+
+		<lable for="car">Car Brands</lable><br>
+		<select id="cars" name="car">
+			<option value="choose">--Please choose an option--</option>
+			<option value="Verna">Varna</option>
+			<option value="Kia">Kia</option>
+			<option value="Seltos">Seltos</option>
+		</select><br><br>
+
+		<lable for="age">Age</lable><br>
+		<input type="number" id="age" name="age" required><br><br>
+
+		<lable for="dob">DOB</lable><br>
+		<input type="date" id="dob" name="dob" required><br><br>
+
+		<lable for="tel">Phone Number</lable><br>
+		<input type="tel" id="tel" name="tel" required><br><br>
+
+		<lable for="password">Password</lable><br>
+		<input type="password" id="password" name="password" required><br><br>
+
+		
+			
+			<lable for="tos">I agree to the TOS</lable><br>
+			<input type="checkbox" id="tos" name="tos" value="yes"><br><br>
+			
+		
 		
 		<button type="submit">Submit</button>
 	</form>
