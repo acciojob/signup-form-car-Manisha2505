@@ -7,52 +7,47 @@
 </head>
 
 <body>
-	<form method="post">
+		<form method="post">
 		
-		<lable for="name">Name</lable><br>
-		<input type="text" id="name" name="name"  placeholder="Name" required><br><br>
+		<label for="name">Name</label><br>
+		<input type="text" id="name" name="name" placeholder="Name" required><br><br>
 
-		<lable for="email">Email</lable><br>
-		<input type="text" id="email" name="email" placeholder="Email" required><br><br>
+		<label for="email">Email</label><br>
+		<input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
-		
-			<lable for="gender">Gender</lable><br>
-			<lable for='gender_m'>Male</lable>
-			<input type="radio" id="gender_m" name="gender" value="gender_m" checked><br>
-			<lable for='gender_f'>Female</lable>
-			<input type="radio" id="gender_f" name="gender" value="gender_f" checked><br><br>
-		
+		<label for="gender">Gender</label><br>
+		<label for='gender_m'>Male</label>
+		<input type="radio" id="gender_m" name="gender" value="gender_m" checked><br>
+		<label for='gender_f'>Female</label>
+		<input type="radio" id="gender_f" name="gender" value="gender_f"><br><br>
 
-		<lable for="cars">Car Brands</lable><br>
+		<label for="cars">Car Brands</label><br>
 		<select id="cars" name="car">
-			<option placeholder="--Please choose an option--">--Please choose an option--</option>
+			<option value="">--Please choose an option--</option>
 			<option value="Verna">Varna</option>
 			<option value="Kia">Kia</option>
 			<option value="Seltos">Seltos</option>
 		</select><br><br>
 
-		<lable for='age'>Age</lable><br>
+		<label for='age'>Age</label><br>
 		<input type="number" id="age" name="age" placeholder="Age" required><br><br>
 
-		<lable for='dob'>DOB</lable><br>
+		<label for='dob'>DOB</label><br>
 		<input type="date" id="dob" name="dob" required><br><br>
 
-		<lable for='tel'>Phone Number</lable><br>
+		<label for='tel'>Phone Number</label><br>
 		<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx" required><br><br>
 
-		<lable for='password'>Password</lable><br>
+		<label for='password'>Password</label><br>
 		<input type="password" id="password" name="password" placeholder="Password" required><br><br>
 
-		
-			
-			<lable for='tos'>I agree to the TOS</lable><br>
-			<input type="checkbox" id="tos" name="tos" value="yes"><br><br>
-			
-		
+		<label for='tos'>I agree to the TOS</label><br>
+		<input type="checkbox" id="tos" name="tos" value="yes"><br><br>
 		
 		<button type="submit">Submit</button>
 	</form>
-    <script type="text/javascript" src="./script.js">
+	
+<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
